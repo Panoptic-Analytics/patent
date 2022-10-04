@@ -44,6 +44,7 @@ const Select = (props: SelectProps) => {
                       type="radio"
                       name="organization"
                       value={option}
+                      onChange={handleOptionSelect}
                     />
                     <span className="label">{option}</span>
                     <span className="opt-val">{option}</span>
